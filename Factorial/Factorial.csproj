@@ -37,6 +37,7 @@
   <ItemGroup>
     <Compile Include="IFactorial.cs" />
     <Compile Include="Implementations\ExampleFactorial.cs" />
+    <Compile Include="Implementations\TestFactorial.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
