@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factorial", "Factorial", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial", "Factorial\Factorial.csproj", "{2D5170AF-5387-4C8F-861A-4DB26F494644}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialTests", "FactorialTests\FactorialTests.csproj", "{15B3D8E2-54E5-4620-AC32-B9D494C36928}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{2D5170AF-5387-4C8F-861A-4DB26F494644}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D5170AF-5387-4C8F-861A-4DB26F494644}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D5170AF-5387-4C8F-861A-4DB26F494644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15B3D8E2-54E5-4620-AC32-B9D494C36928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B3D8E2-54E5-4620-AC32-B9D494C36928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B3D8E2-54E5-4620-AC32-B9D494C36928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B3D8E2-54E5-4620-AC32-B9D494C36928}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2D5170AF-5387-4C8F-861A-4DB26F494644} = {4D2D47AD-9040-4D02-B315-ED5FA8AAA251}
+		{15B3D8E2-54E5-4620-AC32-B9D494C36928} = {4D2D47AD-9040-4D02-B315-ED5FA8AAA251}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {03B2081F-0CF5-4461-BB4A-4C248C5CB626}
