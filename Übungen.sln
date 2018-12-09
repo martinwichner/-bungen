@@ -7,11 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factorial", "Factorial", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial", "Factorial\Factorial.csproj", "{2D5170AF-5387-4C8F-861A-4DB26F494644}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialTests", "FactorialTests\FactorialTests.csproj", "{15B3D8E2-54E5-4620-AC32-B9D494C36928}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactorialTests", "FactorialTests\FactorialTests.csproj", "{15B3D8E2-54E5-4620-AC32-B9D494C36928}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chain calculation", "Chain calculation", "{E0DB6020-C59C-4F07-A52F-0263ADF9B74F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainCalculation", "ChainCalculation\ChainCalculation.csproj", "{809ECD57-9F34-4434-90F2-93B686E589FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainCalculationTests", "ChainCalculationTests\ChainCalculationTests.csproj", "{202ACAE3-2FA4-41C8-ACBB-7BEF233F28A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{809ECD57-9F34-4434-90F2-93B686E589FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{809ECD57-9F34-4434-90F2-93B686E589FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{809ECD57-9F34-4434-90F2-93B686E589FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{202ACAE3-2FA4-41C8-ACBB-7BEF233F28A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{202ACAE3-2FA4-41C8-ACBB-7BEF233F28A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{202ACAE3-2FA4-41C8-ACBB-7BEF233F28A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{202ACAE3-2FA4-41C8-ACBB-7BEF233F28A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{2D5170AF-5387-4C8F-861A-4DB26F494644} = {4D2D47AD-9040-4D02-B315-ED5FA8AAA251}
 		{15B3D8E2-54E5-4620-AC32-B9D494C36928} = {4D2D47AD-9040-4D02-B315-ED5FA8AAA251}
 		{809ECD57-9F34-4434-90F2-93B686E589FC} = {E0DB6020-C59C-4F07-A52F-0263ADF9B74F}
+		{202ACAE3-2FA4-41C8-ACBB-7BEF233F28A3} = {E0DB6020-C59C-4F07-A52F-0263ADF9B74F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {03B2081F-0CF5-4461-BB4A-4C248C5CB626}
