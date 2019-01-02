@@ -12,6 +12,7 @@ namespace FactorialTests
         [DataRow(7, 5040, true)]
         [DataRow(7, 5040, false)]
         [DataRow(6, 720, true)]
+        [DataRow(6, 720, false)]
         [DataTestMethod]
         public void Factorial(int n, int expected, bool useRecursion)
         {
